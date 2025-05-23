@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*, button, input {
+  font-family: -apple-system, Arial, sans-serif;
+}
+
+* li {
+  list-style: none;
+}
+
+.heading {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.heading .text {
+  font-size: 60px;
+  font-weight: 600;
+}
+.heading .Wrapper {
+  position: relative;
+}
+
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(7, 252px);
+}
+
+.column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.column:nth-child(1) {
+  margin-top: 0;
+}
+.column:nth-child(2) {
+  margin-top: 160PX;
+}
+.column:nth-child(3) {
+  margin-top: 320PX;
+}
+.column:nth-child(4) {
+  margin-top: 480PX;
+}
+.column:nth-child(5) {
+  margin-top: 320PX;
+}
+.column:nth-child(6) {
+  margin-top: 160PX;
+}
+.column:nth-child(7) {
+  margin-top: 0;
+}
+
+.item {
+  width: 236px;
+  height: 350px;
+  background: #e60023;
+  border-radius: 10px;
+}
+
+.item:not(:first-child) {
+  margin-top: 16px;
+}/*# sourceMappingURL=styles.css.map */
