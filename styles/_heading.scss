@@ -12,5 +12,17 @@
 
     .Wrapper {
         position: relative;
+
+        .offset {
+            position: absolute;
+            top: 0;
+            left: 0;
+            transform: translatex(-50%);
+        }
+
+        .text {
+            white-space: nowrap;
+            color: $red;
+        }
     }
 }
